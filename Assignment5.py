@@ -8,7 +8,7 @@
 
 import sqlite3
 
-#Create the database and connects
+#Create the database and connects to it
 conn = sqlite3.connect("temperatures.db")
 cursor = conn.cursor()
 
@@ -62,4 +62,5 @@ print(f"Average Temperature for Sunday: {avg_sunday}")
 print(f"Average Temperature for Thursday: {avg_thursday}")
 
 #Closes the connection
+
 conn.close()
