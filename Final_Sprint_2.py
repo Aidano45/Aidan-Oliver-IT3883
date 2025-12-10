@@ -30,5 +30,5 @@ for word in words:
     #Resets count for each full loop iteration
     count = 0
 #Prints results formatted as X.XX
-
 print(f"{amount:.2f}")
+
