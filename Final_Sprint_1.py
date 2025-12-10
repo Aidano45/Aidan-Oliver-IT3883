@@ -29,5 +29,5 @@ for word in words:
     #Resets count for each full loop iteration
     count = 0
 #Prints results
-
 print(amount)
+
