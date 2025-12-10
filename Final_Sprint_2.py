@@ -25,9 +25,10 @@ for word in words:
         cost = 0.1
     if word.lower() == "quarter" or word.lower() == "quarters":
         cost = 0.25
-    #Adds the cost of each coin type and how many their were in the statement to amount
+    #Adds the cost of each coin type and how many there were in the statement to amount
     amount += count*cost
     #Resets count for each full loop iteration
     count = 0
 #Prints results formatted as X.XX
+
 print(f"{amount:.2f}")
